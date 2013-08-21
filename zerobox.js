@@ -72,7 +72,7 @@
                         top: offset.top - $(window).scrollTop(),
                         left: offset.left - $(window).scrollLeft(),
                         height: $img.height(),
-                        width: $img.width(),
+                        width: 'width:100%,
                         zIndex: 1099,
                         background: 'rgba(0, 0, 0, .75) url("' + imgSrc + '")',
                         backgroundRepeat: 'no-repeat',
